@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(255, 196, 1);
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-image img {
+    background-color: white;
+    display: block;
+    margin: auto;
+    max-width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(3, 215, 243, 0.836);
+}
+
+.intro {
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+}
+
+.intro h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #666;
+}
+
+.profile-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-details a {
+    color: #333;
+    text-decoration: none;
+}
+
+.profile-summary {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.profile-summary{
+    font-size: 15px;
+    margin: 4 0 20px 0;
+    color: #333;
+}
+.profile-summary h1 {
+    font-size: 18px;
+}
+.programming-skills, .server-side, .database-skills, .version-control, .education, .work-exprience {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.programming-skills h1, .server-side h1, .database-skills h1, .version-control h1, .education h1, .work-exprience h1 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+.programming-skills ol, .server-side ol, .database-skills ol, .version-control ol {
+    margin: 0;
+    padding: 0;
+}
+
+.programming-skills li, .server-side li, .database-skills li, .version-control li {
+    font-size: 15px;
+    margin: 10px 0;
+    color: #666;
+}
+
+.education p, .education h3 {
+    font-size: 12px;
+    margin: 10px 0;
+    color: #666;
+}
+
+.education h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555555;
+  }
+  
+  
